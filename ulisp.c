@@ -99,7 +99,7 @@ typedef struct sobject {
       struct sobject *cdr;
     };
     struct {
-      unsigned int type;
+      uintptr_t type;
       union {
         symbol_t name;
         int integer;
